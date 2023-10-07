@@ -6,33 +6,24 @@
     <title>Mohammad Hashir</title>
 </head>
 <body>
+    <!-- <div id="container">
+        
+    </div> -->
     <div id="main">
         <div id="box1"></div>
         <div id="box2"></div>
         <div id="box3"></div>
         <div id="box4"></div>
         <div id="box5"></div>
-        <div id="box6"></div>
-        <div id="box7"><span>COMING</span></div>
+        <div id="home">
+            <span id="hw">Hello World!!!</span> <br>
+            <span id="im">I am</span><br>
+            <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Source+Code&weight=1000&size=55&pause=1000&color=F7F7F7&vCenter=true&repeat=false&width=1200&height=100&lines=Mohammad+Hashir+Siddiqui" alt="Typing SVG" /></a>
+        </div>
+        <div id="box7"></div>
         <div id="box8"></div>
         <div id="box9"></div>
-        <div id="box10"></div>
-        <div id="box11"><span>SOON...</span></div>
-        <div id="box12"></div>
-        <div id="box13"></div>
-        <div id="box14"></div>
-        <div id="box15"></div>
-        <div id="box16"></div>
-        <div id="box17"></div>
-        <div id="box18"></div>
-        <div id="box19"></div>
-        <div id="box20"></div>
-        <!-- <div id="box21"><h1>21</h1></div>
-        <div id="box22"><h1>22</h1></div>
-        <div id="box23"><h1>23</h1></div>
-        <div id="box24"><h1>24</h1></div>
-        <div id="box25"><h1>25</h1></div> -->
-    </div>
+    </div> 
 </body>
 <style>
     body{
@@ -41,44 +32,82 @@
         background-color: rgb(0, 0, 0);
         color: azure;
     }
+    #container{
+        height:100vh;
+        width: auto;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    #home{
+        height: 40%;
+        width: 60%;
+        /* padding: 5px; */
+        /* background-color: blueviolet; */
+    }
+    #hw{
+        font-size: 40px;
+    }
+    #im{
+        font-size: 20px;
+    }
     #main{
         display: grid;
         height: 100vh;
-        width: auto;
         padding: 20px;
         grid-template-columns: repeat(5,1fr);
-        grid-template-rows: repeat(5,1fr);
+        grid-template-rows: repeat(3,1fr);
         grid-gap: 15px;
         justify-content: center;
-    }
-    #box7{
-        grid-area: 2/2/3/4;
-        font-size: 500%;
-        background-color: aquamarine
-    }
-    #box11{
-        grid-area: 3/3/4/5;
-        font-size: 500%;
-        background-color: aquamarine
+        
     }
     #main div{
         height: 100%;
         width: 100%;
-        background-color: rgb(0, 0, 0);
+        border: 0 solid rgb(255, 255, 255);
+        border-radius: 10%;
+        transition: transform(.2s) ease-in-out;
+        /* background-color: rgb(255, 0, 0); */
     }
-    #main div:hover{
-        height: 100%;
-        width: 100%;
-        transform: scale(1.08);
-        background-color: rgb(33, 33, 33);
-        transition: transform .5s ease-in-out;
+    main div:hover{
+        transform: scale(1.2);
     }
-    #box5{
-        grid-area: 1/5/4/6;
+    #box1{
+        grid-area: 1/1/2/3;
+        background-color: rgb(4, 47, 95);
+    }
+    #box2{
+        background-color: chartreuse;
+    }
+    #box3{
+        background-color:#037ffc
     }
     
-    #box13{
-        grid-area: 4/2/6/3;
+    #box4{
+        grid-area: 1/5/3/6;
+        background-color: coral;
     }
+    #box5{
+        grid-area: 2/1/4/2;
+        background-color: darkred;
+    }
+    #home{
+        grid-area: 2/2/3/5;
+
+    }
+    #home:hover{
+        transform: scale(1.2);
+    }
+    #box7{
+        background-color: deeppink;
+    }
+    #box8{
+        grid-area: 3/3/4/5;
+        background-color: darkorange;
+    }
+    #box9{
+        background-color: rgb(98, 55, 216);
+    }
+   
 </style>
 </html>
