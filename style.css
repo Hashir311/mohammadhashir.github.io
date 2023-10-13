@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    background-color: darkred;
+}
+/* body div{
+    height: 100%;
+} */
+#main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    height: 40%;
+    color: black;
+    display: inline;
+    justify-content: center;
+    /* align-items: center; */
+}
+#hw{
+    font-size: 80px;
+    font-weight: 1000;
+    font-family:'Courier New', Courier, monospace ;
+}
+#im{
+    font-weight: 1000;
+    font-size: 70px;
+    font-family:'Courier New', Courier, monospace ;
+}
+#start{
+    height: 10%;
+    aspect-ratio: 1;
+    border: solid black 2px;
+    border-radius: 50%;
+}
