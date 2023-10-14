@@ -12,11 +12,18 @@ body{
     align-items: center;
 }
 #home{
-    height: 40%;
+    height: 60%;
+    width: 100%;
     color: black;
     display: inline;
     justify-content: center;
     /* align-items: center; */
+}
+#home_hw{
+    position: relative;
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 #hw{
     font-size: 80px;
@@ -28,8 +35,23 @@ body{
     font-size: 70px;
     font-family:'Courier New', Courier, monospace ;
 }
+#name{
+    position: relative;
+    height: 30%;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+#home_button{
+    position: relative;
+    height:10%;
+    justify-content: center;
+}
 #start{
-    height: 10%;
+    left: 50%;
+    position: relative;
+    transform:translate(-50%,0);
+    height: 100%;
     aspect-ratio: 1;
     border: solid black 2px;
     border-radius: 50%;
